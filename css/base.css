@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  background: #8f8c8c;
+}
+
+section {
+
+}
+
+div {
+  border: solid 2px black;
+}
+
+/* @media (min-width: 768px) {
+  section {
+    width: 768px;
+    margin: 0 auto;
+    background-color: blue;
+  }
+
+  div {
+    
+    float: left;
+    width: 768px;
+    
+  }
+} */
+
+/* @media (min-width: 960px) {
+  section {
+    width: 960px;
+  }
+
+  div {
+    float: left;
+    width: 960px;
+  }
+} */
+p {
+  text-align: center;
+}
