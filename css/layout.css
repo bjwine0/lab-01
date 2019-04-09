@@ -1,53 +1,93 @@
+body {
+  width: 480px;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    /* width: 768px; */
+    margin: 0 auto;
+    
+  }
+
+  div {
+    
+    /* float: left; */
+    width: 768px;
+    
+  }
+}
+
+/* @media (min-width: 960px) {
+  section {
+    width: 960px;
+  }
+
+  div {
+    float: left;
+    width: 960px;
+  }
+} */
+
 .a {
   width: 480px;
   min-height: 75px;
   line-height: 75px;
+  background-color: antiquewhite;
 }
 
 .b {
   width: 480px;
   min-height: 150px;
   line-height: 150px;
+  background-color: blue;
 }
 
 .c {
   width: 480px;
   min-height: 125px;
   line-height: 125px;
+  background-color: red;
 }
 
 .d {
   width: 480px;
   min-height: 125px;
   line-height: 125px;
+  background-color: yellow;
 }
 
 .e {
+  
   width: 240px;
   min-height: 250px;
   line-height: 250px;
+  background-color: green;
 }
 
 .f {
   width: 240px;
   min-height: 250px;
   line-height: 250px;
+  background-color: orange;
 }
 
 .g {
   width: 240px;
   min-height: 250px;
   line-height: 250px;
+  background-color: purple;
 }
 
 .h {
   width: 240px;
   min-height: 250px;
   line-height: 250px;
+  background-color: white;
 }
 
 .i {
   width: 480px;
   min-height: 80px;
   line-height: 80px;
+  background-color: brown;
 }
