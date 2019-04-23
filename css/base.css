@@ -4,11 +4,12 @@
 
 body {
   background: #8f8c8c;
+  display: flex; 
+  flex-wrap: wrap; 
 }
 
 div {
   border: solid 2px black;
   text-align: center;
-  float: left;
+  /* float: left; */
 }
-
