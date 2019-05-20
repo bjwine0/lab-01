@@ -4,12 +4,13 @@
 
 body {
   background: #8f8c8c;
+  margin: 0px auto;
+  width: 480px;
   display: flex; 
   flex-wrap: wrap; 
 }
 
 div {
-  border: solid 2px black;
+  border: solid 1px black;
   text-align: center;
-  /* float: left; */
 }
